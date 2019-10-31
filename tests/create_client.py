@@ -14,7 +14,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-class LoginTest(unittest.TestCase):
+class CreateclientTest(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome(executable_path=r'C:\Users\thekr\Downloads\coffe-master\coffe-master\drivers\chromedriver')
         self.driver.maximize_window()
